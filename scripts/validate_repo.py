@@ -21,6 +21,9 @@ required = [
     "07_translation/README.md",
     "08_implementation/README.md",
     "09_intelligence/README.md",
+    "09_intelligence/EVIDENCE_LEDGER.md",
+    "09_intelligence/USE_CASE_LIBRARY.md",
+    "09_intelligence/RESEARCH_BACKLOG.md",
     "10_campaign/README.md",
     "11_agents/AGENTS.md",
     "12_prompts/README.md",
@@ -32,6 +35,7 @@ required = [
     "15_source_material/README.md",
     "15_source_material/Operations_Support_Field_Guide_v0_1.md",
     "15_source_material/Operations_Support_Field_Guide_v0_1.docx",
+    "16_internal_repo_upgrade/README.md",
 ]
 
 module_dirs = [
@@ -51,6 +55,7 @@ module_dirs = [
     "13_templates",
     "14_governance",
     "15_source_material",
+    "16_internal_repo_upgrade",
 ]
 
 placeholder_re = re.compile(r"\b(TODO|TBD|lorem ipsum|placeholder)\b", re.IGNORECASE)

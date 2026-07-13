@@ -15,6 +15,9 @@ order = [
     "07_translation/README.md",
     "08_implementation/README.md",
     "09_intelligence/README.md",
+    "09_intelligence/EVIDENCE_LEDGER.md",
+    "09_intelligence/USE_CASE_LIBRARY.md",
+    "09_intelligence/RESEARCH_BACKLOG.md",
     "10_campaign/README.md",
     "11_agents/AGENTS.md",
     "12_prompts/README.md",
@@ -22,6 +25,7 @@ order = [
     "13_templates/DECISION_PACKET.md",
     "13_templates/LEARNING_RECORD.md",
     "14_governance/CHANGE_CONTROL.md",
+    "16_internal_repo_upgrade/README.md",
 ]
 
 parts = []

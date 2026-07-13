@@ -4,14 +4,31 @@
 
 This repository is the canonical source for the methodology, field guide, prompts, operating rules, and reusable assets used to diagnose and improve operational problems in small and medium-sized organizations.
 
-The repository serves two purposes:
+The repository serves three purposes:
 
 1. Produce a client-facing and agent-executable field guide for identifying, approaching, diagnosing, qualifying, and helping organizations.
 2. Provide a structured implementation environment that Claude, Codex, ChatGPT, and future agents can use without relying on conversation history.
+3. Upgrade Damian's own repositories, agent workflows, and operating surfaces by applying the same diagnostic method internally, with internal evidence labeled separately from client evidence.
 
 ## Primary objective
 
 Help small, non-technical organizations solve operational and strategic problems by identifying where critical organizational knowledge and operational judgment reside, where they are concentrated or fragmented, how they are protected, and how they can be made more durable, transferable, and useful.
+
+## Internal repo-upgrade objective
+
+Use this methodology on our own repositories and agent operating surfaces before treating it as client-ready proof.
+
+Internal use examines the same symptoms in a repo or operating system context:
+
+- stale or conflicting control files;
+- generated artifacts treated as authority;
+- manual relay between agents;
+- repeated correction loops;
+- hidden dependencies on one operator;
+- unclear ownership of prompts, templates, decisions, and validation;
+- missing checks that would catch drift before work is published.
+
+Internal learning can improve the methodology and produce operational evidence, but it must be labeled as internal dogfooding evidence. It is not client outcome evidence unless a real client organization produced the result.
 
 ## Client-facing symptoms
 
@@ -61,7 +78,8 @@ The service promise remains simple:
 2. Operations Support Gap Analysis determines what should change.
 3. Revised Field Manual implements approved changes.
 4. Repository implementation operationalizes the approved methodology.
-5. Broader constitutional architecture is considered only if the approved methodology generates rules that generalize beyond Operations Support.
+5. Internal repo-upgrade work tests the methodology against our own operating surfaces and feeds learning back into the evidence ledger.
+6. Broader constitutional architecture is considered only if the approved methodology generates rules that generalize beyond Operations Support.
 
 Do not reverse this order.
 

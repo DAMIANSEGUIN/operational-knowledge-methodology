@@ -879,6 +879,9 @@ Build trust and improve the methodology through structured evidence.
 
 ## Required repositories
 
+- `EVIDENCE_LEDGER.md`: external research, internal dogfooding evidence, and client field evidence
+- `USE_CASE_LIBRARY.md`: reusable symptom-to-intervention use cases
+- `RESEARCH_BACKLOG.md`: unanswered research questions and source priorities
 - Pattern library
 - Weak-signal register
 - Industry briefs
@@ -886,11 +889,12 @@ Build trust and improve the methodology through structured evidence.
 - Messaging results
 - Qualification decisions
 - Human corrections
-- Evidence ledger
 
 ## Prohibition
 
 Do not publish percentages, benchmarks, or comparisons without sufficient data.
+
+Internal repo-upgrade outcomes may be used as evidence that the method improves repository operations or agent workflows. They must not be described as client results.
 
 ## Learning Record Standard
 
@@ -921,6 +925,239 @@ A pattern may be promoted only when:
 - Medium: repeated signals in one organization.
 - High: observed improvement after intervention.
 - Reusable: repeated across contexts with clear boundaries.
+
+---
+
+# Evidence Ledger
+
+## Purpose
+
+Track evidence that supports or limits the methodology, with clear separation between external research, internal repo-upgrade evidence, and client field evidence.
+
+## Evidence classes
+
+- External research: credible public research or reporting that supports the existence of a problem or market condition.
+- Internal dogfooding: evidence from applying the method to Damian's repositories, agent workflows, and operating surfaces.
+- Client field evidence: evidence from real prospect, diagnostic, or engagement work with an external organization.
+
+External research can support the case for why the problem matters. Internal dogfooding can improve the method. Client field evidence is required before publishing client-result claims.
+
+## Ledger entries
+
+### E-001 — Small-business AI adoption is rising but uneven
+
+- Evidence class: External research
+- Evidence level: C
+- Source: Associated Press, "AI use by businesses is small but growing rapidly, led by IT sector and firms in Colorado and DC," March 2024, https://apnews.com/article/537a4db7e33fe047963b8c26bf7c366c
+- Claim supported: AI use is spreading into small-business operations, but adoption remains uneven and practical rather than universal.
+- What it says: The article reports U.S. Census Bureau Business Trends and Outlook Survey data showing business AI use rising from 3.7 percent in fall 2023 to 5.4 percent in February 2024, with expected growth later in 2024.
+- Method implication: The diagnostic should not assume a client needs AI. It should ask where employees already use AI, where AI exposes weak documentation, and where inconsistent use creates risk.
+- Limitation: This is news reporting on Census data, not the primary Census table. Primary source verification is still required before using exact figures in public assets.
+- Client-language use: "AI is showing up in everyday work, but most teams are still figuring out where it actually helps."
+
+### E-002 — Small businesses are using embedded AI inside existing tools
+
+- Evidence class: External research
+- Evidence level: C
+- Source: Kiplinger, "Small Businesses Are Racing to Use AI. Here's How to Join Them," February 2025, https://www.kiplinger.com/business/how-small-businesses-are-using-ai
+- Claim supported: Many small businesses encounter AI through existing software rather than through custom AI projects.
+- What it says: The article summarizes a U.S. Chamber of Commerce small-business report and describes common uses such as marketing, customer service, communication, and analysis.
+- Method implication: Implementation should start with existing tools and current behavior before recommending new software.
+- Limitation: Secondary article. The underlying U.S. Chamber report should be captured directly before using statistics in sales material.
+- Client-language use: "Your team may already be using AI inside tools you pay for. The issue is whether that use is consistent, useful, and safe enough for daily work."
+
+### E-003 — Employee AI use is expanding faster than many organizations can govern
+
+- Evidence class: External research
+- Evidence level: C
+- Source: Tom's Hardware summary of Gallup polling, "Gallup: 50% of U.S. employees use AI at work," June 2026, https://www.tomshardware.com/tech-industry/artificial-intelligence/half-of-u-s-employees-now-use-ai-at-work-gallup-poll-finds-only-4-percent-of-manufacturing-workers-are-frequent-ai-users
+- Claim supported: AI use at work can become an operational consistency issue before a company has formal process, training, or ownership.
+- What it says: The article reports Gallup polling that half of U.S. employees use AI at work and that daily or weekly use has grown.
+- Method implication: The diagnostic should check whether AI outputs are reviewed, where employees rely on AI for judgment, and whether managers know which tasks are affected.
+- Limitation: Secondary technology coverage. Official Gallup source should be captured before publishing exact figures.
+- Client-language use: "The question is no longer only whether people use AI. It is whether the work still comes out consistently when they do."
+
+### E-004 — AI adoption depends on local work context and trust practices
+
+- Evidence class: External research
+- Evidence level: C
+- Source: "AI Adoption Across a Multinational Workforce: Emerging Patterns of Usage, Social Influence, and Organizational Change," arXiv, June 2026, https://arxiv.org/abs/2606.17887
+- Claim supported: AI adoption depends on the fit between tool design, job context, trust, source-checking, and organizational knowledge infrastructure.
+- What it says: The paper describes how employees compare AI output against known sources, peers, and organizational guidance, and argues that organizational knowledge infrastructure matters for AI adoption.
+- Method implication: AI-use stabilization belongs inside the knowledge and workflow diagnostic, not in a standalone AI policy exercise.
+- Limitation: Preprint status and industry context must be reviewed before treating it as a high-confidence general rule.
+- Client-language use: "AI works better when the organization already knows what good work looks like and where the right information lives."
+
+### E-005 — Knowledge management is valued more than it is practiced
+
+- Evidence class: External research
+- Evidence level: C
+- Source: "Pitfalls in Effective Knowledge Management: Insights from an International Information Technology Company," arXiv, April 2023, https://arxiv.org/abs/2304.07737
+- Claim supported: Organizations can recognize that knowledge matters while still failing to capture, transfer, and maintain it in daily work.
+- What it says: The study reports a gap between perceived knowledge-management importance and practical execution, including cooperation issues and knowledge loss when employees leave.
+- Method implication: The method should look for practical knowledge transfer, not formal claims that a team "has documentation."
+- Limitation: The research context is an international IT company, not a small non-technical organization. Use it for pattern support, not direct market proof.
+- Client-language use: "Most teams know important knowledge should be written down. The problem is that daily work rarely leaves time or ownership for keeping it useful."
+
+## Claim-use rules
+
+- Use exact percentages only when the primary source has been captured and reviewed.
+- Label external research as problem evidence, not proof that this methodology produces outcomes.
+- Label internal repo-upgrade evidence as internal operating-system evidence.
+- Label client outcome evidence only when it comes from a real prospect, diagnostic, or engagement record.
+- If a source is secondary, state the limitation before using it in public-facing material.
+
+---
+
+# Use Case Library
+
+## Purpose
+
+Translate research, internal observations, and field evidence into reusable use cases that can guide diagnostics, outreach, implementation, and evidence capture.
+
+Each use case must connect a recognizable symptom to evidence, questions, small interventions, and proof metrics.
+
+## Use case format
+
+- Symptom
+- Likely operational mechanism
+- Evidence to gather
+- Diagnostic questions
+- Small intervention
+- Proof metric
+- Failure mode
+- Related templates
+
+## UC-001 — Key-person dependency
+
+- Symptom: Work slows down, decisions stall, or mistakes increase when one person is absent.
+- Likely operational mechanism: Critical knowledge and judgment live in one person's memory, inbox, habits, or private files.
+- Evidence to gather: absence workarounds, recurring escalations, shadow instructions, undocumented exceptions, repeated Slack or email questions.
+- Diagnostic questions: "Who gets interrupted when this work gets stuck?" "What does that person know that others do not?" "Which decisions cannot be made from the written process?"
+- Small intervention: Document the judgment points, create a dependency map, write a lightweight decision guide, and test it with another person.
+- Proof metric: Fewer escalations to the key person for the same workflow.
+- Failure mode: Capturing steps without capturing judgment.
+- Related templates: dependency map, workflow map, evidence log, outcome review.
+
+## UC-002 — Repeated correction loops
+
+- Symptom: The same mistake is corrected repeatedly, often by the same reviewer or manager.
+- Likely operational mechanism: The process lacks a clear quality standard, feedback loop, or ownership point.
+- Evidence to gather: examples of repeated corrections, reviewer notes, rework time, unclear approval criteria.
+- Diagnostic questions: "What keeps getting corrected?" "Where should the mistake have been caught?" "Does the person doing the work know the standard before submitting it?"
+- Small intervention: Convert corrections into a visible checklist or decision rule and review the next three instances.
+- Proof metric: Fewer repeated corrections for the same issue.
+- Failure mode: Treating the person as the problem when the standard is invisible.
+- Related templates: human correction record, experiment record, outcome review.
+
+## UC-003 — Disconnected systems and manual reconciliation
+
+- Symptom: Staff copy information between tools, reconcile conflicting records, or maintain side spreadsheets.
+- Likely operational mechanism: Tool boundaries are unclear, systems do not share a source of truth, or ownership is missing.
+- Evidence to gather: duplicate records, manual copy steps, reconciliation notes, missed handoffs, conflicting fields.
+- Diagnostic questions: "Where is the source of truth?" "Who checks whether the records match?" "Which system wins when two systems disagree?"
+- Small intervention: Define one source of truth for a narrow workflow and remove one duplicate entry step.
+- Proof metric: Fewer manual reconciliation steps and fewer mismatched records.
+- Failure mode: Buying another tool before clarifying ownership and source-of-truth rules.
+- Related templates: workflow map, dependency map, implementation plan.
+
+## UC-004 — Inconsistent AI use
+
+- Symptom: Employees use AI differently, produce inconsistent output, or rely on AI without shared review rules.
+- Likely operational mechanism: AI is being used inside weak workflows where quality standards and source authority are already unclear.
+- Evidence to gather: examples of AI-generated work, review practices, prompt reuse, tool access, errors, manager expectations.
+- Diagnostic questions: "Which tasks are people using AI for?" "Who reviews AI output?" "What sources are considered authoritative?" "What work should not be delegated to AI?"
+- Small intervention: Define approved uses, review rules, source-checking expectations, and one reusable prompt for a narrow workflow.
+- Proof metric: More consistent AI-assisted output and fewer unreviewed AI decisions.
+- Failure mode: Writing a broad AI policy before understanding actual work.
+- Related templates: evidence log, decision packet, human correction record.
+
+## UC-005 — Onboarding dependence
+
+- Symptom: New staff require repeated live explanation, and performance depends on who trained them.
+- Likely operational mechanism: Training depends on memory, informal demonstration, and local exceptions rather than durable workflow knowledge.
+- Evidence to gather: onboarding questions, repeated training topics, undocumented exceptions, inconsistent instructions from different trainers.
+- Diagnostic questions: "What does a new person need to ask twice?" "Which parts of training depend on the trainer?" "Where do exceptions live?"
+- Small intervention: Capture the first complete workflow, its judgment points, and the most common exceptions, then use it in the next onboarding moment.
+- Proof metric: Fewer repeat questions and faster independent completion of the workflow.
+- Failure mode: Creating a large manual no one maintains.
+- Related templates: workflow map, evidence log, outcome review.
+
+## UC-006 — Internal repository and agent workflow upgrade
+
+- Symptom: A repository, agent workflow, or operating surface requires manual relay, repeated correction, stale state files, or unclear authority before work can proceed.
+- Likely operational mechanism: The repository lacks durable control surfaces, validation, ownership, or a reliable path from instruction to executed change.
+- Evidence to gather: stale current-state claims, duplicate prompts, generated artifacts treated as sources, manual copy/paste handoffs, failed validation, missing decision records.
+- Diagnostic questions: "Which file is authoritative?" "What work depends on Damian remembering context?" "Which check would catch drift before a user sees it?" "Where does another agent need to write or read safely?"
+- Small intervention: Establish canonical ownership, add validation, update state files, and test a small agent-executed change.
+- Proof metric: Fewer manual relays and a cleaner path from instruction to validated repo change.
+- Failure mode: Adding more instructions without enforcement, validation, or next-action routing.
+- Related templates: methodology decision record, evidence log, experiment record, outcome review.
+
+---
+
+# Research Backlog
+
+## Purpose
+
+Track research needed to build the public case for the methodology without overstating evidence.
+
+## Source priority
+
+1. Primary government, academic, or original survey sources.
+2. Reports from credible institutions with visible methods.
+3. Secondary reporting used only to locate primary sources or support non-statistical framing.
+4. Internal dogfooding evidence, labeled separately from client field evidence.
+5. Client field evidence from real diagnostics and engagements.
+
+## Open research questions
+
+### R-001 — Small-business AI adoption
+
+- Question: How many small businesses use AI, for which tasks, and through which existing tools?
+- Current evidence: Secondary summaries of Census and U.S. Chamber reporting.
+- Needed source: Official Census Business Trends and Outlook Survey tables and the original U.S. Chamber small-business report.
+- Use in methodology: Support campaign framing and AI-use diagnostic questions.
+- Public-claim rule: Do not publish exact figures until primary sources are captured.
+
+### R-002 — AI use and operational consistency
+
+- Question: How often do employees use AI without shared review standards, and what errors or inconsistencies result?
+- Current evidence: Secondary Gallup reporting and academic workplace AI studies.
+- Needed source: Official Gallup report and peer-reviewed or methodologically transparent workplace research.
+- Use in methodology: Support the unstable-AI-use diagnostic and implementation module.
+- Public-claim rule: Describe the risk qualitatively until stronger sources are logged.
+
+### R-003 — Knowledge concentration and employee absence
+
+- Question: What evidence connects key-person dependency, turnover, absence, or onboarding friction to operational performance in small organizations?
+- Current evidence: Knowledge-management research and methodology hypothesis.
+- Needed source: Small-business operations studies, human resources studies, and case evidence from diagnostics.
+- Use in methodology: Support key-person dependency and onboarding use cases.
+- Public-claim rule: Use client-language symptoms before quantified claims.
+
+### R-004 — Manual coordination and disconnected systems
+
+- Question: How common are manual reconciliation, duplicate entry, and hidden spreadsheets in small service organizations?
+- Current evidence: Methodology hypothesis and common operational pattern.
+- Needed source: Field diagnostics, industry reports, and documented examples from real workflows.
+- Use in methodology: Support diagnostic intake and implementation prioritization.
+- Public-claim rule: Do not claim prevalence until evidence exists.
+
+### R-005 — Internal repo-upgrade evidence
+
+- Question: Can this methodology measurably improve Damian's own repositories, agent workflows, and operating surfaces?
+- Current evidence: Repository build-out process and user correction that the internal purpose must be explicit.
+- Needed source: First internal repo-upgrade diagnostic, intervention record, validation result, and outcome review.
+- Use in methodology: Improve agent instructions, governance, evidence capture, and implementation rules.
+- Public-claim rule: Label as internal dogfooding evidence. Do not present as client proof.
+
+## Research capture rules
+
+- Add every usable source to `EVIDENCE_LEDGER.md`.
+- Record source limitations before extracting claims.
+- Convert each supported pattern into `USE_CASE_LIBRARY.md` only when it can produce a diagnostic question or implementation action.
+- Record client-facing claim language only after the support level is clear.
 
 ---
 
@@ -1503,3 +1740,131 @@ Files under `build/` and packaged archives are derivative. They may be regenerat
 ## Version Rule
 
 Use semantic repository versions in `CURRENT_STATE.md` and dated changelog entries. A version changes when repository capability changes, not when a generated artifact is rebuilt.
+
+---
+
+# Internal Repository Upgrade System
+
+## Purpose
+
+Apply the Operational Knowledge Methodology to Damian's own repositories, agent workflows, and operating surfaces.
+
+This module exists because the project is not only a client-facing methodology. It is also a way to improve the operating system that produces, maintains, and validates the work.
+
+## Scope
+
+In scope:
+
+- local repositories;
+- bridge and agent coordination surfaces;
+- prompt and template libraries;
+- current-state files;
+- validation scripts;
+- generated artifact flows;
+- handoff paths between Codex, ChatGPT, Claude, Aider, and future agents.
+
+Out of scope:
+
+- rewriting unrelated projects without a clear diagnostic;
+- destructive cleanup without human approval;
+- treating internal results as client outcome proof;
+- exposing secrets, credentials, or private operational details in public material.
+
+## Inputs
+
+- Repository root
+- Current authority files
+- Current git status
+- Known agent workflows
+- Existing validation scripts
+- Recent failure or correction examples
+- Human constraints from Damian
+
+## Outputs
+
+- Repo symptom map
+- Canonical ownership map
+- Evidence log
+- Dependency map
+- Improvement plan
+- Validation plan
+- Experiment record
+- Outcome review
+- Methodology update recommendation when learning generalizes
+
+## Diagnostic sequence
+
+1. Confirm repository root and branch.
+2. Read authority files before reading generated artifacts.
+3. Identify current workstreams and claims about project state.
+4. Map canonical owners for prompts, templates, decisions, state, validation, and generated outputs.
+5. Locate duplicate or conflicting authorities.
+6. Identify work that depends on Damian manually remembering or relaying context.
+7. Identify agent handoffs that have no durable inbox, validation, or state update.
+8. Identify generated artifacts that may be mistaken for sources.
+9. Identify missing checks that would catch broken links, stale state, duplicated prompts, or unsafe publication.
+10. Select one small intervention.
+11. Run validation before and after the intervention.
+12. Capture the outcome in `09_intelligence/EVIDENCE_LEDGER.md` and the relevant template.
+
+## Repo symptoms to look for
+
+- A current-state file describes work that is already complete.
+- A generated file is edited by hand.
+- Multiple files claim to own the same prompt or template.
+- Agents require conversation history to continue.
+- A user must copy large responses between systems.
+- A bridge exists but has no health check or next-action rule.
+- Validation exists but does not cover the failure that keeps recurring.
+- A workflow depends on one operator knowing the hidden order of operations.
+- Build outputs are committed without source traceability.
+- A repo contains source material, generated material, and canonical material without visible separation.
+
+## Decision rules
+
+- Prefer strengthening an existing canonical owner over creating a new parallel file.
+- Prefer validation over prose when a failure mode can be checked mechanically.
+- Preserve user work and source material unless it is clearly generated and safely reproducible.
+- Archive uncertain material rather than deleting it.
+- Commit only coherent, validated changes.
+- Push only after validation passes and state files accurately describe the result.
+
+## Human judgment points
+
+Damian must approve:
+
+- destructive cleanup;
+- secret or credential handling;
+- publishing internal evidence externally;
+- changing the public positioning of a project;
+- broad architectural moves that affect multiple active repositories;
+- force-pushes, history rewrites, or irreversible migrations.
+
+## Failure modes
+
+- Adding more instructions without adding enforcement.
+- Treating a local fix as general methodology evidence too early.
+- Making a repo tidier while losing operational knowledge.
+- Optimizing for agent convenience while increasing human confusion.
+- Converting internal private evidence into public marketing language.
+- Building an automation path that cannot report failure clearly.
+
+## Related modules
+
+- `03_methodology/OPERATIONAL_KNOWLEDGE_METHOD.md`
+- `09_intelligence/EVIDENCE_LEDGER.md`
+- `09_intelligence/USE_CASE_LIBRARY.md`
+- `13_templates/OPERATING_TEMPLATES.md`
+- `14_governance/CHANGE_CONTROL.md`
+
+## Completion criteria
+
+An internal repo-upgrade cycle is complete when:
+
+- one repository or operating surface has been diagnosed;
+- observed symptoms are separated from inference;
+- one small intervention has been implemented;
+- validation has been run;
+- outcome evidence has been captured;
+- any reusable learning has a proposed canonical owner;
+- current-state and change records reflect the work.

@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.3.0-research-and-internal-upgrade — 2026-07-13
+
+### Added
+
+- External research evidence ledger for case-building claims
+- Use case library connecting symptoms, evidence, interventions, and proof metrics
+- Research backlog for primary-source verification and future evidence capture
+- Internal repo-upgrade module for applying the methodology to Damian's own repositories and agent operating surfaces
+
+### Changed
+
+- Project authority now states the internal repo-upgrade purpose explicitly
+- Current state now distinguishes external research, internal dogfooding evidence, and client outcome evidence
+- Build and validation scripts now include the new research and internal-upgrade sources
+
 ## 0.2.0-controlled-methodology — 2026-07-13
 
 ### Added

@@ -2,11 +2,11 @@
 
 ## Repository version
 
-0.2.0-controlled-methodology
+0.3.0-research-and-internal-upgrade
 
 ## Current phase
 
-Controlled methodology and operating system established.
+Controlled methodology, research evidence layer, and internal repo-upgrade system established.
 
 ## Completed
 
@@ -27,14 +27,18 @@ Controlled methodology and operating system established.
 - Field guide sequence completed
 - Diagnostic, qualification, translation, implementation, intelligence, and campaign modules completed
 - Agent roles, canonical prompts, operating templates, governance, and validation strengthened
+- External research evidence ledger created for case-building claims
+- Use case library created for translating research and field signals into diagnostic entry points
+- Research backlog created for future primary-source verification
+- Internal repo-upgrade module created to apply the method to Damian's own repositories and agent workflows
 
 ## Active workstream
 
-Field testing and evidence capture.
+Case building, internal dogfooding, and field evidence capture.
 
 ## Next required task
 
-Use the methodology with real or supplied organizations, capture evidence, and refine only from observed outcomes or approved corrections.
+Run the first internal repo diagnostic using `16_internal_repo_upgrade/README.md`, capture the result in the evidence ledger, and continue collecting primary sources and field evidence.
 
 ## Required inputs not yet present
 
@@ -43,12 +47,12 @@ Use the methodology with real or supplied organizations, capture evidence, and r
 - Current qualification/filtering prompt
 - Existing outreach assets
 - Existing implementation templates
-- Existing repository structure, if this methodology will be integrated into another local repository
 - Field evidence from actual diagnostic conversations or engagements
+- Official primary-source copies for the secondary external evidence already logged
 
 ## Blockers
 
-No client outcome evidence or case records are present yet. Do not publish benchmarks, result claims, or case-study claims until evidence exists.
+No client outcome evidence or case records are present yet. External research can support the case for the problem, and internal repo-upgrade work can test the method, but neither can be presented as client outcome proof.
 
 ## Do not do yet
 
@@ -58,4 +62,4 @@ No client outcome evidence or case records are present yet. Do not publish bench
 
 ## Next milestone
 
-First evidence-backed diagnostic or pilot case captured using `13_templates/OPERATING_TEMPLATES.md`.
+First internal repo-upgrade diagnostic captured, followed by the first evidence-backed diagnostic or pilot case captured using `13_templates/OPERATING_TEMPLATES.md`.

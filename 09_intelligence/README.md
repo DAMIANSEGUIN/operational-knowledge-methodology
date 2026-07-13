@@ -13,6 +13,9 @@ Build trust and improve the methodology through structured evidence.
 
 ## Required repositories
 
+- `EVIDENCE_LEDGER.md`: external research, internal dogfooding evidence, and client field evidence
+- `USE_CASE_LIBRARY.md`: reusable symptom-to-intervention use cases
+- `RESEARCH_BACKLOG.md`: unanswered research questions and source priorities
 - Pattern library
 - Weak-signal register
 - Industry briefs
@@ -20,11 +23,12 @@ Build trust and improve the methodology through structured evidence.
 - Messaging results
 - Qualification decisions
 - Human corrections
-- Evidence ledger
 
 ## Prohibition
 
 Do not publish percentages, benchmarks, or comparisons without sufficient data.
+
+Internal repo-upgrade outcomes may be used as evidence that the method improves repository operations or agent workflows. They must not be described as client results.
 
 ## Learning Record Standard
 

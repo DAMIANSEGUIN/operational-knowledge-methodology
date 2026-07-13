@@ -48,6 +48,18 @@ Status: Approved
 
 Reusable operating templates are owned by `13_templates/`. Module files may describe when to use them but should not create parallel templates.
 
+## D-009 — Internal repo-upgrade purpose
+
+Status: Approved
+
+The methodology is also used to improve Damian's own repositories, agent workflows, and operating surfaces. Internal evidence can validate method usability and reveal failure modes, but it must be labeled separately from client outcome evidence.
+
+## D-010 — Evidence ledger ownership
+
+Status: Approved
+
+External research, internal dogfooding evidence, and client field evidence are tracked through `09_intelligence/EVIDENCE_LEDGER.md`. Public claims must identify which evidence class supports them.
+
 ## Open decisions
 
 - Final public name of the assessment
@@ -56,3 +68,4 @@ Reusable operating templates are owned by `13_templates/`. Module files may desc
 - Exact report upload and review workflow
 - Whether any generalized rules should later be promoted into a broader Foundational Knowledge Architecture
 - Evidence threshold for public case claims after first pilots
+- Which internal repository should receive the first repo-upgrade diagnostic

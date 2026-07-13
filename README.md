@@ -9,6 +9,7 @@ A repository for the client-first methodology, field guide, diagnostic system, q
 3. `01_strategic_review/STRATEGIC_REVIEW.md`
 4. `02_gap_analysis/GAP_ANALYSIS_v1.md`
 5. `03_methodology/OPERATIONAL_KNOWLEDGE_METHOD.md`
+6. `16_internal_repo_upgrade/README.md`
 
 ## What this repository is
 
@@ -16,6 +17,7 @@ A repository for the client-first methodology, field guide, diagnostic system, q
 - A field guide for approaching and helping organizations
 - An agent-operable methodology
 - A structured learning system
+- An internal repo-upgrade system for improving Damian's own repositories and agent workflows
 - A source for generated DOCX, PDF, web, and prompt-pack outputs
 
 ## What this repository is not
@@ -51,6 +53,7 @@ Do not edit generated files in `build/`.
 - `13_templates/` — reusable output formats
 - `14_governance/` — controlled change, traceability, and decision records
 - `15_source_material/` — source artifacts supplied for review
+- `16_internal_repo_upgrade/` — internal dogfooding and repository improvement system
 - `build/` — generated outputs
 - `scripts/` — build and validation scripts
 
