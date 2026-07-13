@@ -30,6 +30,24 @@ Status: Approved
 
 AI leads diagnosis and recommendation. Damian calibrates messaging, fit, timing, trust, and commitments.
 
+## D-006 — Controlled methodology construction approved
+
+Status: Approved
+
+The Strategic Review and Operations Support Field Guide v0.1 source brief are sufficient to establish a controlled v0.2 methodology repository, provided unsupported client-result claims remain prohibited until evidence exists.
+
+## D-007 — Canonical prompt ownership
+
+Status: Approved
+
+Canonical prompts are owned by `12_prompts/README.md`. Module files may reference them but should not duplicate full prompt text.
+
+## D-008 — Canonical operating-template ownership
+
+Status: Approved
+
+Reusable operating templates are owned by `13_templates/`. Module files may describe when to use them but should not create parallel templates.
+
 ## Open decisions
 
 - Final public name of the assessment
@@ -37,3 +55,4 @@ AI leads diagnosis and recommendation. Damian calibrates messaging, fit, timing,
 - Pricing packaging beyond the initial three-hours-per-week assumption
 - Exact report upload and review workflow
 - Whether any generalized rules should later be promoted into a broader Foundational Knowledge Architecture
+- Evidence threshold for public case claims after first pilots

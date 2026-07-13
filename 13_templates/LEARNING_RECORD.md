@@ -1,17 +1,19 @@
-# Learning Record
+# Learning Record Template
 
 - Date:
-- Situation:
 - Organization type:
+- Situation:
 - Observed signals:
+- Evidence level:
 - AI diagnosis:
 - AI recommendation:
 - Human decision:
 - Human correction:
-- Reason:
+- Reason for correction:
 - Action taken:
 - Outcome:
 - Reusable pattern:
-- Evidence level:
+- Boundary conditions:
 - Affected modules:
 - Repository update required:
+- Decision log update required:

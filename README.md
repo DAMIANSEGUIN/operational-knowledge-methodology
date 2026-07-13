@@ -7,7 +7,8 @@ A repository for the client-first methodology, field guide, diagnostic system, q
 1. `PROJECT.md`
 2. `CURRENT_STATE.md`
 3. `01_strategic_review/STRATEGIC_REVIEW.md`
-4. `02_gap_analysis/README.md`
+4. `02_gap_analysis/GAP_ANALYSIS_v1.md`
+5. `03_methodology/OPERATIONAL_KNOWLEDGE_METHOD.md`
 
 ## What this repository is
 
@@ -37,7 +38,7 @@ Do not edit generated files in `build/`.
 - `00_orientation/` — plain-language explanation and system orientation
 - `01_strategic_review/` — approved design brief
 - `02_gap_analysis/` — comparison of current methodology against the brief
-- `03_methodology/` — approved methodology after gap analysis
+- `03_methodology/` — approved controlled methodology
 - `04_field_guide/` — prospect-to-client operating sequence
 - `05_diagnostic/` — diagnostic model, prompts, scoring, and report structure
 - `06_qualification/` — interpretation of lead responses and fit decisions
@@ -52,3 +53,9 @@ Do not edit generated files in `build/`.
 - `15_source_material/` — source artifacts supplied for review
 - `build/` — generated outputs
 - `scripts/` — build and validation scripts
+
+## Operating Rule
+
+For repository work, read `PROJECT.md`, `CURRENT_STATE.md`, the relevant module owner, and `14_governance/CHANGE_CONTROL.md` before editing.
+
+Run `python3 scripts/validate_repo.py` before committing.

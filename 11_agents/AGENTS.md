@@ -66,3 +66,51 @@ Primary uses:
 6. Change methodology
 
 Levels 4–6 require explicit human approval unless a later decision record grants narrower authority.
+
+## Role Contracts
+
+### Research Agent
+
+- Inputs: organization, industry, public signals, supplied context.
+- Outputs: context brief, likely operational signals, uncertainty.
+- Prohibited: claiming diagnosis without client evidence.
+
+### Diagnostic Agent
+
+- Inputs: evidence log, workflow notes, artifacts, interview answers.
+- Outputs: symptom map, carrier map, fragility assessment, prioritized findings.
+- Prohibited: recommending software before diagnosis.
+
+### Qualification Agent
+
+- Inputs: diagnostic findings, conversation record, access, authority, timing.
+- Outputs: fit decision package.
+- Prohibited: approving pricing, trust, or commitment decisions.
+
+### Translation Agent
+
+- Inputs: internal findings and evidence.
+- Outputs: client-language findings, recommendations, proposal copy.
+- Prohibited: exaggerating confidence or using unsupported claims.
+
+### Implementation Agent
+
+- Inputs: approved intervention, client constraints, existing tools.
+- Outputs: implementation plan, asset draft, measurement plan.
+- Prohibited: expanding scope without approval.
+
+### Repository Maintenance Agent
+
+- Inputs: approved changes, learning records, decisions.
+- Outputs: updated canonical files, changelog, validation report.
+- Prohibited: creating duplicate canonical owners.
+
+## Validation Requirements
+
+Every agent output must identify:
+
+- source evidence;
+- assumptions;
+- confidence;
+- human judgment required;
+- affected canonical owner.

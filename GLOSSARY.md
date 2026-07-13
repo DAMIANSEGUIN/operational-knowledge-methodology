@@ -59,3 +59,19 @@ The single authoritative source for a reusable concept, rule, prompt, template, 
 ## Generated artifact
 
 A derivative output compiled from canonical source. It is not edited directly.
+
+## Hidden manual coordination
+
+Work that appears automatic or routine but actually depends on a person repeatedly checking, reconciling, reminding, translating, or correcting.
+
+## Repeated correction loop
+
+A failure pattern where the same issue is fixed after it occurs instead of prevented by a rule, handoff, source of truth, or ownership change.
+
+## Durable operational knowledge
+
+Knowledge that remains usable when a specific person is unavailable because it has an owner, location, update rule, and use context.
+
+## Small intervention
+
+A reversible change that reduces one real operational dependency, repeated error, or handoff problem without requiring a large transformation project.

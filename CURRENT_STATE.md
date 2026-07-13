@@ -2,11 +2,11 @@
 
 ## Repository version
 
-0.1.0-bootstrap
+0.2.0-controlled-methodology
 
 ## Current phase
 
-Repository bootstrap and context preservation.
+Controlled methodology and operating system established.
 
 ## Completed
 
@@ -21,37 +21,41 @@ Repository bootstrap and context preservation.
 - Initial controlled vocabulary created
 - Initial agent startup protocol created
 - Build script created
+- Operations Support Field Guide v0.1 added as source material
+- Gap Analysis v1 completed
+- Operational Knowledge Method approved as controlled methodology
+- Field guide sequence completed
+- Diagnostic, qualification, translation, implementation, intelligence, and campaign modules completed
+- Agent roles, canonical prompts, operating templates, governance, and validation strengthened
 
 ## Active workstream
 
-Strategic review and gap analysis.
+Field testing and evidence capture.
 
 ## Next required task
 
-Perform a section-by-section gap analysis of the current Operations Support Working Strategy Document and any existing Field Manual against the approved Strategic Review.
+Use the methodology with real or supplied organizations, capture evidence, and refine only from observed outcomes or approved corrections.
 
 ## Required inputs not yet present
 
-- Current canonical Operations Support Field Manual
 - Current canonical diagnostic prompt
 - Current landing page or messaging assets
 - Current qualification/filtering prompt
 - Existing outreach assets
 - Existing implementation templates
 - Existing repository structure, if this methodology will be integrated into another local repository
+- Field evidence from actual diagnostic conversations or engagements
 
 ## Blockers
 
-The gap analysis cannot be completed rigorously until the current canonical Field Manual and diagnostic assets are added to `15_source_material/`.
+No client outcome evidence or case records are present yet. Do not publish benchmarks, result claims, or case-study claims until evidence exists.
 
 ## Do not do yet
 
-- Do not rewrite the Field Manual.
-- Do not finalize the methodology.
 - Do not convert hypotheses into constitutional rules.
 - Do not create client-facing claims without evidence.
 - Do not treat repository structure as proof of methodological validity.
 
 ## Next milestone
 
-`02_gap_analysis/GAP_ANALYSIS_v1.md` completed and approved.
+First evidence-backed diagnostic or pilot case captured using `13_templates/OPERATING_TEMPLATES.md`.

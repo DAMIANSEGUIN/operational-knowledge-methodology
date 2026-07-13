@@ -1,27 +1,34 @@
-# Decision Packet
+# Decision Packet Template
 
-## Question
+## Decision Needed
+
+## Context
 
 ## Observations
 
 ## Evidence
 
+## Inferences
+
 ## Assumptions
 
-## Missing information
+## Missing Information
 
 ## Options
 
-## Tradeoffs
+| Option | Benefit | Risk | Evidence | Reversibility |
+|---|---|---|---|---|
 
 ## Recommendation
 
 ## Confidence
 
-## Why not the other options
+## Human Judgment Required
 
-## Human judgment required
+## Decision
 
-## Next action
+## Action Taken
 
-## Learning capture after outcome
+## Outcome Review Date
+
+## Learning Capture
